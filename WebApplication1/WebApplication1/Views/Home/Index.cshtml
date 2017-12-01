@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>NBA</h1>
+    <p class="lead">The National Basketball Association</p>
+    <p><a href="http://www.espn.com/nba/" class="btn btn-primary btn-lg" target="_blank">NBA Home &raquo;</a></p>
+</div>
+
+<div class="row center-txt">
+    <div class="col-md-4">
+        <h2>Eastern Conference</h2>
+        <p>The Kingdom of Lebron James</p>
+        <a href="@Url.Action("MainPage", "EasternConference")">
+            <img class="column4" src="~/Content/Images/Eastern_Conference_(NBA)_logo.gif" />
+        </a>
+    </div>
+    <div class="col-md-4">
+        <h2>Future Players</h2>
+        <p>Speak with fellow fans about college stars, high-school sensations, and aspiring youth.</p>
+        <a href="@Url.Action("MainPage", "FuturePlayers")">
+            <img class="column4" src="~/Content/Images/NBA_Draft.jpeg" />
+        </a>
+    </div>
+    <div class="col-md-4">
+        <h2>Western Conference</h2>
+        <p>All-Stars and Splash Bros.</p>
+        <a href="@Url.Action("MainPage", "WesternConference")">
+            <img class="column4" src="~/Content/Images/Western_Conference_(NBA)_logo.gif" />
+        </a>
+    </div>
+</div>

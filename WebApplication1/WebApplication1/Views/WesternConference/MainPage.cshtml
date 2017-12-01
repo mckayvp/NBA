@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Western Conference";
+}
+
+<h2>Western Conference Divisions</h2>
+
+<br /><br />
+
+<div class="row">
+    <div class="col-md-4">
+        <h2 class="center-txt">NORTHWEST</h2>
+        <img class="column4" src="~/Content/Images/donavan-mitchell.jpg" /> 
+        <p></p>
+        <p>@Html.ActionLink("Portland Trail Blazers", "Index", "Teams", new { teamID = 1}, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Minnesota Timberwolves", "Index", "Teams", new { teamID = 2 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Denver Nuggets", "Index", "Teams", new { teamID = 3 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Utah Jazz", "Index", "Teams", new { teamID = 4 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Oklahoma City Thunder", "Index", "Teams", new { teamID = 5 }, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2 class="center-txt">PACIFIC</h2>
+        <img class="column4" src="~/Content/Images/kevin-durant.jpg" />
+        <p></p>
+        <p>@Html.ActionLink("Golden State Warriors", "Index", "Teams", new { teamID = 6 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("LA Clippers", "Index", "Teams", new { teamID = 7 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Los Angeles Lakers", "Index", "Teams", new { teamID = 8 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Phoenix Suns", "Index", "Teams", new { teamID = 9 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Sacramento Kings", "Index", "Teams", new { teamID = 10 }, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2 class="center-txt">SOUTHWEST</h2>
+        <img class="column4" src="~/Content/Images/james-harden.jpg" />
+        <p></p>
+        <p>@Html.ActionLink("Houston Rockets", "Index", "Teams", new { teamID = 11 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("San Antonio Spurs", "Index", "Teams", new { teamID = 12 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("New Orleans Pelicans", "Index", "Teams", new { teamID = 13 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Memphis Grizzlies", "Index", "Teams", new { teamID = 14 }, new { @class = "btn btn-primary" })</p>
+        <p>@Html.ActionLink("Dallas Mavericks", "Index", "Teams", new { teamID = 15 }, new { @class = "btn btn-primary" })</p>
+    </div>
+</div>
